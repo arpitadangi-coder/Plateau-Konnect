@@ -1,7 +1,7 @@
-# Project Title: NextGen Estate (Real Estate WebSite)
+# Project Title: Plateau Konnect (Real Estate WebSite)
 
 ## Description
-NextGen Estate, a full-stack web application, empowers users to actively search, add, and manage properties across diverse categories and features. Employing a modern tech stack, it combines React with Redux-Toolkit for state management, Tailwind CSS for styling components, and Node.js with Express for the backend. MongoDB stores user profiles and properties, Firebase handles property images, and Nodemailer facilitates email notifications. Logging is efficiently managed through Winston. Location-based Searching is achieved using Location IQ and GeoSpatial Searching using MongoDB, Integrated with GEMINI AI for automatic Property Description Generation Based on Filled Property Data. [Link To Project](https://next-gen-estate-delta.vercel.app/)
+Plateau Konnect, a full-stack web application, empowers users to actively search, add, and manage properties across diverse categories and features. Employing a modern tech stack, it combines React with Redux-Toolkit for state management, Tailwind CSS for styling components, and Node.js with Express for the backend. MongoDB stores user profiles and properties, Firebase handles property images, and Nodemailer facilitates email notifications. Logging is efficiently managed through Winston. Location-based Searching is achieved using Location IQ and GeoSpatial Searching using MongoDB, Integrated with GEMINI AI for automatic Property Description Generation Based on Filled Property Data. 
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -15,7 +15,7 @@ NextGen Estate, a full-stack web application, empowers users to actively search,
 9. [Acknowledgments](#acknowledgments)
 
 ## Installation
-1. Clone the repository: `git https://github.com/somnathnavale/Real_Estate_WebApp.git`
+1. Clone the repository: 
 2. Navigate to the project folder: `cd Real_Estate_WebApp`
 3. Install dependencies:
    - Frontend: `cd client && npm install`
@@ -67,8 +67,6 @@ NextGen Estate, a full-stack web application, empowers users to actively search,
 ## Troubleshooting
 - If you encounter issues with authentication, ensure that your environment variables are correctly set.
 
-## Contact Information
-For questions or feedback, connect with me on [Linkedin](https://www.linkedin.com/in/somnathnavale/)
 
 ## Acknowledgments
 ### NPM Package Used 

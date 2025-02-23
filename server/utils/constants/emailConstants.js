@@ -9,7 +9,7 @@ const forgotPasswordMailContent={
 }
 
 const userRegistrationMailContent={
-    subject:"Welcome to NextGen Estate",
+    subject:"Welcome to Property Plateau",
     html:fs.readFileSync(path.resolve(__dirname,'../' ,'view', 'user-registration-template.html'), 'utf-8'),
     from:"",
     to:"" 

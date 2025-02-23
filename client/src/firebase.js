@@ -1,16 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
-const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "real-estate-5c079.firebaseapp.com",
-  projectId: "real-estate-5c079",
-  storageBucket: "real-estate-5c079.appspot.com",
-  messagingSenderId: "245707737149",
-  appId: "1:245707737149:web:febaf487503ed158238254",
-  measurementId: "G-B7RC45E4TH"
-};
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDA84qVkiUncc0UICxhwJE42BFRtBa5Jng",
+  authDomain: "blog-app-6eb2c.firebaseapp.com",
+  projectId: "blog-app-6eb2c",
+  storageBucket: "blog-app-6eb2c.appspot.com",
+  messagingSenderId: "960237831396",
+  appId: "1:960237831396:web:cb023b6ad9ffe6a1e818f1"
+};
 const app = initializeApp(firebaseConfig);
 export const storage = getStorage(app);
 

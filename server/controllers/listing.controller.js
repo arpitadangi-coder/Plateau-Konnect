@@ -163,7 +163,7 @@ const updateListing = asyncErrorHandler(async (req, res) => {
 const getGeocode = async (req, res, next) => {
   try {
     const query = req.query;
-
+    res.json({ lat: "55", lon:"25" });
     const encodedObj = Object.keys(query)
       .map((key) => `${key}=${encodeURIComponent(query[key])}`)
       .join("&");

@@ -40,14 +40,14 @@ const Header = () => {
             <img
               src={logo}
               className="mr-3 h-6 sm:h-9 cursor-pointer"
-              alt="NextGen Logo"
+              alt="Plateau Konnect Logo"
               onClick={() => navigate("/")}
             />
             <span
-              className="self-center text-xl font-semibold whitespace-nowrap text-slate-500 font-serif cursor-pointer"
+              className="self-center text-xl font-semibold whitespace-nowrap text-black-500 font-serif cursor-pointer"
               onClick={() => navigate("/")}
             >
-              NextGen<span className="text-slate-700">Estate</span>
+              Plateau<span className="text-blue-700">Konnect</span>
             </span>
           </div>
           <div className="hidden md:block">
@@ -67,7 +67,7 @@ const Header = () => {
                 }
               />
               <button type="submit">
-                <FaSearch className="text-slate-600 cursor-pointer" />
+                <FaSearch className="text-black cursor-pointer" />
               </button>
             </form>
           </div>
@@ -95,7 +95,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="outline-none border-b-transparent block font-medium text-gray-700 hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
+                  className="outline-none border-b-transparent block font-medium text-black hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
                 >
                   Home
                 </Link>
@@ -103,7 +103,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/listings/add"
-                  className="outline-none border-b-transparent block font-medium text-gray-700 hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
+                  className="outline-none border-b-transparent block font-medium text-black hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
                 >
                   Add Property
                 </Link>
@@ -112,14 +112,14 @@ const Header = () => {
                 {user?.username ? (
                   <Link
                     to="/profile"
-                    className=" outline-none border-b-transparent block font-medium text-gray-700 hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
+                    className=" outline-none border-b-transparent block font-medium text-black hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
                   >
                     Profile
                   </Link>
                 ) : (
                   <Link
                     to="/sign-in"
-                    className="outline-none border-b-transparent block font-medium text-gray-700 hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
+                    className="outline-none border-b-transparent block font-medium text-black hover:text-slate-500 text-lg border-b-2 hover:border-b-slate-500"
                     state={{ from: location }}
                   >
                     Sign In
